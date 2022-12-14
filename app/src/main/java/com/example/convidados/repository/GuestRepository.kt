@@ -1,4 +1,4 @@
-package com.example.convidados
+package com.example.convidados.repository
 
 class GuestRepository private constructor(){
 
@@ -7,11 +7,15 @@ class GuestRepository private constructor(){
         private lateinit var repository: GuestRepository
 
         fun getIntance(): GuestRepository {
-            if (!::repository.isInitialized) {
+            if (!Companion::repository.isInitialized) {
                 repository = GuestRepository()
             }
             return repository
         }
+    }
+
+    fun save() {
+
     }
 
 }

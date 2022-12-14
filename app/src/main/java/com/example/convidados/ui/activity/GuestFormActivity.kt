@@ -1,9 +1,10 @@
-package com.example.convidados
+package com.example.convidados.ui.activity
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.convidados.R
 import com.example.convidados.databinding.ActivityGuestFormBinding
 import com.example.convidados.viewmodel.GuestFormViewmModel
 

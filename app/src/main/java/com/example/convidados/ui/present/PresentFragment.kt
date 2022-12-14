@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.convidados.databinding.FragmentPresentBinding
+import com.example.convidados.viewmodel.PresentViewModel
 
 class PresentFragment : Fragment() {
 
